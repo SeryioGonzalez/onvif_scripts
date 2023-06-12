@@ -20,7 +20,7 @@ def fetch_devices():
         print(display(service.getScopes()))
         print('----------')
 
-    print(f'\nnumber of devices detected: {len(services)}')
+    print(f'\nNumber of devices detected: {len(services)}')
     wsd.stop()
     return ipaddresses
 
