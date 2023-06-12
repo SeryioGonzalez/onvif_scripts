@@ -16,8 +16,9 @@ def fetch_devices():
     #filter those devices that dont have ONVIF service
         ipaddress = re.search('(\d+|\.)+', str(service.getXAddrs()[0])).group(0)
         ipaddresses.append(ipaddress)
+        print("ONVIF SCOPES FOUND:"
         print(display(service.getScopes()))
-        print('----------END')
+        print('----------')
 
     print(f'\nnumber of devices detected: {len(services)}')
     wsd.stop()
