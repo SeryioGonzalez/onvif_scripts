@@ -44,4 +44,4 @@ onvif_request = requests.post(onvif_resource_url, data = xml_onvif_payload_no_pa
 
 print("Onvif response code was: {}".format(onvif_request.status_code))
 print("Onvif response content was: ")
-print(onvif_request.content)
+print(onvif_request.content.decode('UTF-8'))
