@@ -1,4 +1,4 @@
-# Supportiv ONFIV scripts for device discovery and device capability retrieval
+# Supportive ONFIV scripts for device discovery and device capability retrieval
 
 This project has 2 main scripts intended for ONVIF device interworking. Additionally, some sample packet captures have been added to the traces folder.
 For the scripts to work, you need to install wsdiscovery via pip manager.
